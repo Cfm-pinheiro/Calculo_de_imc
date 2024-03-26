@@ -1,14 +1,16 @@
+
+def calcular_IMC(peso, altura):
+    imc = peso / altura ** 2
+    return imc
+
 nome = input("digite Seu nome: ")
-altura = float(input('digite sua altura: '))
-peso = float(input('Digite seu peso: '))
-imc = peso / altura ** 2
 
-print(nome)
-print(altura)
-print(peso)
+altura = float(input('digite sua altura (m): '))
+peso = float(input('Digite seu peso (kg): '))
 
-linha_3 = f'{imc:.2f}'
-print(linha_3)
+imc = calcular_IMC(peso, altura)
+
+print(f'Seu IMC é de: {imc:.2f}')
 
 if imc < 18.5:
     print('Você está abaixo do peso ideal.')
