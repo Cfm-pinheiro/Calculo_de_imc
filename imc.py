@@ -1,7 +1,11 @@
-nome = 'Fernando Pinheiro'
-altura = 1.71
-peso = 90
+nome = input("digite Seu nome: ")
+altura = float(input('digite sua altura: '))
+peso = float(input('Digite seu peso: '))
 imc = peso / altura ** 2
+
+print(nome)
+print(altura)
+print(peso)
 
 
 linha_1 = f'{nome} tem {altura:.2f} de altura'
