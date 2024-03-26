@@ -1,17 +1,22 @@
 
+# Funçao para calcular o (IMC)
 def calcular_IMC(peso, altura):
     imc = peso / altura ** 2
     return imc
 
+# Solicitaçõe de dados do usuario
 nome = input("digite Seu nome: ")
 
 altura = float(input('digite sua altura (m): '))
 peso = float(input('Digite seu peso (kg): '))
 
+# Calculo do (IMC)
 imc = calcular_IMC(peso, altura)
 
 print(f'Seu IMC é de: {imc:.2f}')
 
+
+# Logica do programa
 if imc < 18.5:
     print('Você está abaixo do peso ideal.')
 elif 18.5 <= imc < 24.9:
