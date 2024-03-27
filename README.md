@@ -1,24 +1,22 @@
-# Curso de Python
+# Calculadora de IMC em Python
 
-Este repositório contém materiais e exercícios do nosso curso interativo de Python. Ideal para quem está começando ou quer aprofundar seus conhecimentos na linguagem.
+Este repositório é dedicado a um script simples de Python que calcula o Índice de Massa Corporal (IMC) para ajudar na conscientização sobre saúde e boa forma.
 
-## Conteúdos
+## Sobre o IMC
 
-- Introdução à linguagem Python
-- Estruturas de dados
-- Funções e módulos
-- Programação orientada a objetos
-- Desenvolvimento web com Python
-- Análise de dados
+O IMC é uma medida de gordura corporal baseada na altura e peso que se aplica a homens e mulheres adultos.
 
-## Como Usar
+## Como Funciona
 
-Clone o repositório e siga as instruções de cada pasta para começar a aprender e praticar Python.
+- Clone o repositório
+- Execute o script `imc.py`
+- Insira sua altura em metros e peso em quilogramas
+- Receba seu IMC e uma mensagem de saúde básica
 
-## Contribuições
+## Contribuindo
 
-Contribuições são bem-vindas! Se você tem sugestões de melhorias ou novos exercícios, sinta-se à vontade para abrir uma `issue` ou enviar um `pull request`.
+Se você deseja contribuir com melhorias ou correções, fique à vontade para criar uma `issue` ou um `pull request`.
 
 ## Licença
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
